@@ -88,8 +88,8 @@ const Sidebar = ({children}) => {
                <div className="top_section" style={{width:isOpen? "254px":"90px"}}>
                     <div style={{display: isOpen ? "block" : "none"}} className="info-admin">
                     
-                        <img src={imgprofile} alt=""  /> 
-                    <h1  className=" icon name">menna ahmed </h1>
+                      <div  ><img src={imgprofile} alt=""  /> </div>  
+                    <h1  className=" icon name">mohmed aymen</h1>
                     </div>
                   
                    <div style={{marginLeft: isOpen ? "0px" : "48px"}} className="bars">
@@ -101,7 +101,7 @@ const Sidebar = ({children}) => {
                     <hr style={{display:isOpen?"block":"none"}}></hr>
                {
                    menuItem.map((item, index)=>(
-                        <div  >
+                        <div   >
                              <NavLink to={item.path} key={index} className="link" activeclassName="active">
                           
                           <div className="icon">{item.icon}</div>
