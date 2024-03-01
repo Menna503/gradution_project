@@ -89,7 +89,7 @@ const Sidebar = ({children}) => {
                     <div style={{display: isOpen ? "block" : "none"}} className="info-admin">
                     
                       <div  ><img src={imgprofile} alt=""  /> </div>  
-                    <h1  className=" icon name">mohmed aymen</h1>
+                    <h1  className=" icon name">ghada elsayed</h1>
                     </div>
                   
                    <div style={{marginLeft: isOpen ? "0px" : "48px"}} className="bars">
